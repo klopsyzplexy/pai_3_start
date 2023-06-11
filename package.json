@@ -1,0 +1,26 @@
+{
+  "name": "hello_world_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('test')",
+    "start": "node index.js",
+	"lint": "eslint src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pai_3_start.git"
+  },
+  "keywords": [
+    "pai"
+  ],
+  "author": "domino",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  }
+}
